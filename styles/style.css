@@ -10,8 +10,8 @@ body{
     font-family: "Merriweather", serif;
 }
 .section-1{
-width: 1320px ;
-height: 600px;
+max-width: 1320px ;
+-ms-text-align-last: 600px;
 background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
 background-position: center;
 background-size: cover;
@@ -32,4 +32,37 @@ p{
 h1{
     font-size: 72px;
     font-weight: 900;
+}
+/* 65%section */
+.section-2{
+    width:803px ;
+height:806px;
+
+margin: 0 auto;
+margin-top:120px;
+}
+.section-heading{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+}
+.subheading{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-description
+{
+    color: rgb(7, 2, 17);
+    font-size:48px;
+    font-weight: 700;
+}
+.off{
+    text-align: center;
+}
+.img-happy-new
+{
+    width: 803px;
+    height: 500px;
+    margin-top: 120px;
 }
