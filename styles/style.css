@@ -70,7 +70,7 @@ margin-top:120px;
 .midnight-section{
     max-width: 1320px;
     height: 600px;
-    border: 2px solid red;
+   
     margin: 0 auto;
     margin-top:120px ;
     border-radius: 16px;
@@ -106,11 +106,42 @@ margin-top:120px;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 .midnight-button{
     background: transparent;
     color: white;
     font-size:20px;
     font-weight:700 ;
+}
+/* venue */
+.place{
+    max-width: 1320px;
+    height: 482px;
+    
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);;
+}
+.venue-details{
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.venue{
+    text-align: center;
+    padding: 105px 385px;
+}
+.place-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
 }
