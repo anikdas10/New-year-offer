@@ -149,7 +149,6 @@ span{
 .comming-soon{
     max-width: 1320px;
     height: 463px;
-    border: 2px solid rebeccapurple;
     margin: 0 auto;
     margin-top: 120px;
     display: flex;
@@ -197,4 +196,54 @@ color: rgb(255, 0, 0);
     height: 140px;
     position: absolute;
 }
-
+/* holiday */
+.holiday-container{
+max-width: 1320px;
+height: 968px;
+margin: 0 auto;
+margin-top:90px ;
+position: relative;
+}
+.holiday-text-container
+{
+    text-align: center;
+   
+}
+.holiday-sub{
+    Font: Inter;
+Font-weight: 500;
+Font-size: 24px;
+color: rgb(7, 2, 17);
+}
+.holiday-heading{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+rgb(7, 2, 17)
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+}
+.solid-color{
+    width: 1320px;
+height: 229px;
+ border-radius: 16px 0px 16px 16px;
+background: rgb(255, 0, 0);
+position: absolute;
+top: 76.5%;
+}
+.giftbox{
+    width: 674.82px;
+height: 577.96px;
+position:relative;
+top: 15%;
+}
+.discount{
+    position: absolute;
+width: 305.69px;
+height: 305.69px;
+left:65% ;
+top: 40%;
+}
