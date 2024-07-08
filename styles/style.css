@@ -145,3 +145,56 @@ span{
     margin-top: 20px;
     border: none;
 }
+/* ccoomig soon */
+.comming-soon{
+    max-width: 1320px;
+    height: 463px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-description{
+   width: 33%;
+}
+.sub-header{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.comming-header{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.comming-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.group{
+    height: 364px;
+    width: 364px;
+    box-sizing:content-box;
+border: 10px solid rgb(255, 0, 0);
+border-radius: 200px;
+padding:12px;
+}
+.year{
+    Font: Inter;
+Font-weight: 700;
+Font-size: 48px;
+color: rgb(255, 0, 0);
+}
+.newyear{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+}
+
